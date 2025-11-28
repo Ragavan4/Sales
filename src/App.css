@@ -1,0 +1,43 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;      
+}
+
+body {
+  background-image: url("https://template.canva.com/EAF5FxQlSGQ/1/0/1600w-zYA4XGHAYo0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+
+.custom-table thead tr {
+  background-color: #0e0563ff;
+  height: 40px;
+}
+
+.custom-table thead th {
+  padding: 4px 8px;
+  color: white;
+  font-size: 13px;
+}
+
+
+.custom-table tbody tr {
+  height: 30px;
+}
+
+.custom-table tbody td {
+  padding: 4px 8px;
+  font-size: 13px;
+}
