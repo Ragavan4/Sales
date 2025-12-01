@@ -1,11 +1,5 @@
 import React, { useEffect, useState } from "react";
-import {
-  Box,
-  Paper,
-  Typography,
-  Grid,
-  CircularProgress,
-} from "@mui/material";
+import { Box, Paper, Typography, Grid, CircularProgress } from "@mui/material";
 
 import PeopleIcon from "@mui/icons-material/People";
 import InventoryIcon from "@mui/icons-material/Inventory";
@@ -127,8 +121,8 @@ export default function Dashboard() {
           {card("Total Orders", count.orders, "#d32f2f", ShoppingCartIcon)}
         </Grid>
 
-         <Grid item xs={12} sm={6} md={4}>
-          {card("Total User", count.orders, "#8400ffff", GroupIcon)}
+        <Grid item xs={12} sm={6} md={4}>
+          {card("Total User", count.orders, "#000000ff", GroupIcon)}
         </Grid>
       </Grid>
     </Box>

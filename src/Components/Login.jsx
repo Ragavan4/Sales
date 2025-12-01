@@ -136,6 +136,22 @@ export default function Login() {
           </Box>
         </Box>
       </Paper>
+
+      <Snackbar
+        open={snack.open}
+        autoHideDuration={2000}
+        onClose={() => setSnack({ ...snack, open: false })}
+        anchorOrigin={{ vertical: "top", horizontal: "center" }}
+      >
+        <Alert
+          onClose={() => setSnack({ ...snack, open: false })}
+          severity={snack.type}
+          sx={{ width: "100%" }}
+        >
+          {snack.message}
+        </Alert>
+      </Snackbar>
+
     </Box>
   );
 }
